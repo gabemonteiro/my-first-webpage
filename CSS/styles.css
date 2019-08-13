@@ -18,6 +18,17 @@ p {
   text-align: center;
 }
 
+p.intro {
+  width: 50%;
+  font-style: italic;
+}
+
+p.author {
+  width: 75%;
+  font-style: italic;
+  font-weight: bold;
+}
+
 ul {
   font-size: 20px;
   line-height: 30px;
@@ -30,4 +41,8 @@ ol {
   line-height: 30px;
   text-align: center;
   list-style-position: inside;
+}
+
+ul.important {
+  color: red;
 }
